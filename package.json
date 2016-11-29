@@ -1,0 +1,36 @@
+{
+  "name": "p2p-videochat",
+  "version": "1.0.0",
+  "description": "A simple socket.io based chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "browserify": "browserify public/js/main.js -o public/js/bundle.js"
+  },
+  "author": "Karuppiah",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "getusermedia": "^2.0.0",
+    "jquery": "^3.1.1",
+    "simple-peer": "^6.0.7",
+    "socket.io": "^1.7.1",
+    "socket.io-client": "^1.7.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karuppiah7890/p2p-videochat.git"
+  },
+  "keywords": [
+    "p2p",
+    "videochat"
+  ],
+  "bugs": {
+    "url": "https://github.com/karuppiah7890/p2p-videochat/issues"
+  },
+  "homepage": "https://github.com/karuppiah7890/p2p-videochat#readme"
+}
