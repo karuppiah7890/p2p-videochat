@@ -54,7 +54,7 @@ io.on('connection',function(socket){
       }
 
       if(clients.indexOf(socket.id)!==-1) {
-        console.log(`Client ${socket.id} sent room message : ${roomMessage.room} - ${roomMessage.data}`);
+        console.log(`Client ${socket.id} sent room message : ${roomMessage.room} - ${JSON.stringify(roomMessage.data)}`);
         socket.to(roomMessage.room).emit('roomMessage',roomMessage);
       } else {
         socket.emit('errorMessage',`You don't belong to this room kid!`);
