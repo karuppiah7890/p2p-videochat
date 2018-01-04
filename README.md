@@ -8,6 +8,4 @@ I have to work and change the UI/UX to tackle the problem of room name conflicts
 
 This project is currently **NOT MAINTAINED**. Contributions through PRs are welcome. I will try to add a contributing guide. If you benefit from this project, buy me a cup of coffee by donating through [Paypal](https://www.paypal.me/karuppiah7890/10)
 
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/As7RZLNBAMSNCAFdWx5r75nM/karuppiah7890/p2p-videochat'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/As7RZLNBAMSNCAFdWx5r75nM/karuppiah7890/p2p-videochat.svg' />
-</a>
+
